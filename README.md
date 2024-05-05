@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Radhakrishnan-R/order-summary-component-fm
+- Live Site URL: https://radhakrishnan-r.github.io/order-summary-component-fm/
 
 ## My process
 
