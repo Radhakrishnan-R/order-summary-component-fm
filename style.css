@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.container{
+    width: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.content-holder{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-holder img{
+    width: 100%;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+p{
+    color: hsl(226, 14%, 57%);
+}
+
+.plan-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.plan-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.plan-details  span{
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+a{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    transition: all 0.15s;
+}
+
+a:hover{
+    color: hsl(245, 84%, 69%);
+    text-decoration: none;
+}
+
+.primary-btn{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.15s;
+}
+
+.primary-btn:hover{
+    cursor: pointer;
+    background-color: hsl(245, 84%, 69%);
+}
+
+.cancel-btn{
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-weight: 700;
+    color: hsl(226, 14%, 57%);
+    transition: all 0.15s;
+    background-color: transparent;
+}
+
+.cancel-btn:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+
+@media (max-width:375px){
+    body{
+        height: auto;
+    }
+
+    .container{
+        width: auto;
+    }
+
+    .content-holder{
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+}
